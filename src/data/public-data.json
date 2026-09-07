@@ -1,0 +1,116 @@
+{
+  "exportedAt": "2026-09-07T00:00:00.000Z",
+  "version": "1.0.0",
+  "storeConfig": {
+    "name": "幸福社區生鮮門市",
+    "subtitle": "在地老鄰居的好幫手・每日低溫現貨",
+    "tagline": "實體店面團購・到店付款取貨",
+    "phone": "(02) 2345-6789",
+    "phoneRaw": "0223456789",
+    "phoneHours": "電話登記時間：09:00 ~ 21:00",
+    "address": "台北市大安區和平東路二段 88 號 1 樓",
+    "addressShort": "台北市大安區和平東路二段 88 號",
+    "mapUrl": "https://maps.google.com/?q=台北市大安區和平東路二段88號",
+    "hours": "週一至週日 09:00 ~ 21:00",
+    "hoursNotice": "全年無休，國定假日照常營業",
+    "transitMetro": "科技大樓站步行約 5 分鐘。",
+    "transitBus": "搭乘 18、237、295 至「復興南路口」站，下車即達門市。",
+    "parkingStore": "提供機車臨停與快速取貨 3 分鐘汽車臨停黃線。",
+    "parkingPaid": "正對面公有地下停車場（步行 1 分鐘）。",
+    "guarantee": "本網站不提供線上付款或宅配，所有團購皆由冷藏直送門市，客人到店親自檢視滿意再付款，免受網路詐騙風險！"
+  },
+  "groupBuys": [
+    {
+      "id": "gb_1831268a",
+      "slug": "aomori-apple",
+      "title": "日本青森頂級蜜富士蘋果 (原箱空運直達)",
+      "productName": "日本青森蜜富士蘋果",
+      "description": "嚴選日本青森縣產地直送，果蜜飽滿、脆甜多汁，產地最新鮮原裝冷藏空運來台。",
+      "productImageUrl": "https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?auto=format&fit=crop&w=800&q=80",
+      "status": "ACTIVE",
+      "startDate": "2026-09-06",
+      "endDate": "2026-09-08",
+      "expectedArrivalDate": "2026-09-18",
+      "notice": "預計到貨後請於 3 天內來店領取，並維持冷藏保存。現場可開箱檢查。",
+      "minTargetQuantity": 20,
+      "maxAvailableQuantity": 100,
+      "featured": 1,
+      "sortOrder": 0,
+      "items": [
+        {
+          "id": "gbi_0d7db210",
+          "sku": "LEGACY-gbi_0d7db210",
+          "variantName": "6 入特選禮盒裝",
+          "originalPrice": 899,
+          "groupPrice": 699
+        },
+        {
+          "id": "gbi_1f4fc74e",
+          "sku": "LEGACY-gbi_1f4fc74e",
+          "variantName": "12 入頂級家庭原箱",
+          "originalPrice": 1600,
+          "groupPrice": 1299
+        }
+      ]
+    },
+    {
+      "id": "gb_7164c5dc",
+      "slug": "taitung-custard-apple",
+      "title": "台東太麻里特級大目釋迦 (外銷等級)",
+      "productName": "台東大目釋迦",
+      "description": "台東太麻里小農直送，果肉綿密乳香濃郁，甜度高達 22 度。",
+      "productImageUrl": "https://images.unsplash.com/photo-1596797038530-2c107229654b?auto=format&fit=crop&w=800&q=80",
+      "status": "ACTIVE",
+      "startDate": "2026-09-06",
+      "endDate": "2026-09-13",
+      "expectedArrivalDate": "2026-09-18",
+      "notice": "收到商品後請放置陰涼處軟熟，未軟熟前切勿冷藏。",
+      "minTargetQuantity": 15,
+      "maxAvailableQuantity": 50,
+      "featured": 0,
+      "sortOrder": 0,
+      "items": [
+        {
+          "id": "gbi_0e6331c0",
+          "sku": "LEGACY-gbi_0e6331c0",
+          "variantName": "5 斤裝精品盒 (約 5~6 顆)",
+          "originalPrice": 750,
+          "groupPrice": 580
+        },
+        {
+          "id": "gbi_74bf1fa3",
+          "sku": "LEGACY-gbi_74bf1fa3",
+          "variantName": "10 斤大容量分享箱 (約 10~12 顆)",
+          "originalPrice": 1400,
+          "groupPrice": 1050
+        }
+      ]
+    },
+    {
+      "id": "gb_a88f8cb9",
+      "slug": "penghu-dumplings",
+      "title": "澎湖純淨野生黑皮海菜・手工鮮肉水餃 (大包裝50顆)",
+      "productName": "澎湖野生海菜手工水餃",
+      "description": "澎湖純淨海域天然野生海菜，搭配台灣溫體黑毛豬前腿肉，手工現包急凍保鮮。",
+      "productImageUrl": "https://images.unsplash.com/photo-1541696432-82c6da8ce7bf?auto=format&fit=crop&w=800&q=80",
+      "status": "ARRIVED",
+      "startDate": "2026-09-06",
+      "endDate": "2026-09-06",
+      "expectedArrivalDate": "2026-09-06",
+      "notice": "商品已全數到貨至門市低溫冷凍庫，已登記的客人請盡速前來領取！",
+      "minTargetQuantity": 30,
+      "maxAvailableQuantity": 100,
+      "featured": 0,
+      "sortOrder": 0,
+      "items": [
+        {
+          "id": "gbi_e860002b",
+          "sku": "LEGACY-gbi_e860002b",
+          "variantName": "野生海菜黑豬肉 (50顆/包)",
+          "originalPrice": 480,
+          "groupPrice": 390
+        }
+      ]
+    }
+  ]
+}
