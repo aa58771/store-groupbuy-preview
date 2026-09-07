@@ -39,14 +39,12 @@
       "items": [
         {
           "id": "gbi_0d7db210",
-          "sku": "LEGACY-gbi_0d7db210",
           "variantName": "6 入特選禮盒裝",
           "originalPrice": 899,
           "groupPrice": 699
         },
         {
           "id": "gbi_1f4fc74e",
-          "sku": "LEGACY-gbi_1f4fc74e",
           "variantName": "12 入頂級家庭原箱",
           "originalPrice": 1600,
           "groupPrice": 1299
@@ -72,14 +70,12 @@
       "items": [
         {
           "id": "gbi_0e6331c0",
-          "sku": "LEGACY-gbi_0e6331c0",
           "variantName": "5 斤裝精品盒 (約 5~6 顆)",
           "originalPrice": 750,
           "groupPrice": 580
         },
         {
           "id": "gbi_74bf1fa3",
-          "sku": "LEGACY-gbi_74bf1fa3",
           "variantName": "10 斤大容量分享箱 (約 10~12 顆)",
           "originalPrice": 1400,
           "groupPrice": 1050
@@ -105,7 +101,6 @@
       "items": [
         {
           "id": "gbi_e860002b",
-          "sku": "LEGACY-gbi_e860002b",
           "variantName": "野生海菜黑豬肉 (50顆/包)",
           "originalPrice": 480,
           "groupPrice": 390
