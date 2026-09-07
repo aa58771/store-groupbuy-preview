@@ -14,6 +14,7 @@ import {
 } from 'lucide-react';
 import { calculateRemainingDays, formatFullDate } from '../components/GroupBuyCard';
 import StatusBadge from '../components/StatusBadge';
+import { STORE_CONFIG } from '../config/storeConfig';
 
 export default function GroupBuyDetailPage({ slug, onNavigate }) {
   const [groupBuy, setGroupBuy] = useState(null);
@@ -36,7 +37,7 @@ export default function GroupBuyDetailPage({ slug, onNavigate }) {
         setGroupBuy(data);
         // Set dynamic document title for SEO & LINE sharing (Section 24)
         const minPrice = data.items?.length > 0 ? Math.min(...data.items.map(i => i.groupPrice)) : '';
-        document.title = `${data.title} | 團購價 $${minPrice} | 幸福社區生鮮門市`;
+        document.title = `${data.title} | 團購價 $${minPrice} | ${STORE_CONFIG.name}`;
       })
       .catch(err => {
         console.error(err);
@@ -45,7 +46,7 @@ export default function GroupBuyDetailPage({ slug, onNavigate }) {
       .finally(() => setLoading(false));
 
     return () => {
-      document.title = '幸福社區生鮮門市 | 實體門市團購';
+      document.title = `${STORE_CONFIG.name} | 實體門市團購`;
     };
   }, [slug]);
 
@@ -306,10 +307,10 @@ export default function GroupBuyDetailPage({ slug, onNavigate }) {
               取貨門市資訊
             </div>
             <div style={{ fontSize: '16px', color: '#44403c', display: 'flex', flexDirection: 'column', gap: '4px' }}>
-              <div><strong>門市：</strong>幸福社區生鮮門市</div>
-              <div><strong>地址：</strong>台北市大安區和平東路二段 88 號</div>
-              <div><strong>電話：</strong>(02) 2345-6789</div>
-              <div><strong>營業時間：</strong>每日 09:00 ~ 21:00</div>
+              <div><strong>門市：</strong>{STORE_CONFIG.name}</div>
+              <div><strong>地址：</strong>{STORE_CONFIG.addressShort}</div>
+              <div><strong>電話：</strong>{STORE_CONFIG.phone}</div>
+              <div><strong>營業時間：</strong>{STORE_CONFIG.hours}</div>
             </div>
           </div>
 

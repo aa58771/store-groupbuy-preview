@@ -100,7 +100,7 @@ export default function StoreInfoPage({ onNavigate }) {
             <Bus size={22} color="#059669" /> 大眾交通方式
           </h3>
           <ul style={{ listStyleType: 'none', display: 'flex', flexDirection: 'column', gap: '6px', fontSize: '16px', color: '#44403c' }}>
-            <li>• <strong>捷運：</strong>{STORE_CONFIG.transitMetro}</li>
+            <li>• <strong>火車／捷運：</strong>{STORE_CONFIG.transitMetro}</li>
             <li>• <strong>公車：</strong>{STORE_CONFIG.transitBus}</li>
           </ul>
         </div>

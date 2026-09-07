@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { ShoppingBag, Clock, PackageCheck, Phone, MapPin, ChevronRight, ArrowDown } from 'lucide-react';
 import GroupBuyCard, { calculateRemainingDays } from '../components/GroupBuyCard';
+import { STORE_CONFIG } from '../config/storeConfig';
 
 export default function HomePage({ onNavigate }) {
   const [groupBuys, setGroupBuys] = useState([]);
@@ -161,31 +162,31 @@ export default function HomePage({ onNavigate }) {
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '16px', fontSize: '18px' }}>
           <div>
             <div style={{ color: '#78716c', fontSize: '15px' }}>門市名稱</div>
-            <strong style={{ fontSize: '20px' }}>幸福社區生鮮門市</strong>
+            <strong style={{ fontSize: '20px' }}>{STORE_CONFIG.name}</strong>
           </div>
 
           <div>
             <div style={{ color: '#78716c', fontSize: '15px' }}>聯絡電話 (點擊直撥)</div>
-            <a href="tel:0223456789" style={{ color: '#059669', fontWeight: '800', textDecoration: 'none' }}>
-              (02) 2345-6789
+            <a href={`tel:${STORE_CONFIG.phoneRaw}`} style={{ color: '#059669', fontWeight: '800', textDecoration: 'none' }}>
+              {STORE_CONFIG.phone}
             </a>
           </div>
 
           <div>
             <div style={{ color: '#78716c', fontSize: '15px' }}>門市地址 (點擊導航)</div>
             <a
-              href="https://maps.google.com/?q=台北市大安區和平東路二段88號"
+              href={STORE_CONFIG.mapUrl}
               target="_blank"
               rel="noreferrer"
               style={{ color: '#059669', fontWeight: '700', textDecoration: 'underline' }}
             >
-              台北市大安區和平東路二段 88 號
+              {STORE_CONFIG.addressShort}
             </a>
           </div>
 
           <div>
             <div style={{ color: '#78716c', fontSize: '15px' }}>營業時間</div>
-            <strong>每日 09:00 ~ 21:00</strong>
+            <strong>{STORE_CONFIG.hours}</strong>
           </div>
         </div>
       </section>
